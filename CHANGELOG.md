@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Add `:external` query option and `Ch.ExternalTable` to send [external data](https://clickhouse.com/docs/engines/table-engines/special/external-data) with queries, e.g. to filter by millions of ids.
+
 ## 0.9.3 (2026-10-15)
 
 - Preserve fractional seconds when Ecto casts `Time64` values; RowBinary encoding applies the declared precision. https://github.com/plausible/ch/pull/469
